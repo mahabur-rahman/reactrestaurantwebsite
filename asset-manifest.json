@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/reactrestaurantwebsite/static/css/main.bb571c59.chunk.css",
+    "main.js": "/reactrestaurantwebsite/static/js/main.ea4ddba8.chunk.js",
+    "main.js.map": "/reactrestaurantwebsite/static/js/main.ea4ddba8.chunk.js.map",
+    "runtime-main.js": "/reactrestaurantwebsite/static/js/runtime-main.4574c1c8.js",
+    "runtime-main.js.map": "/reactrestaurantwebsite/static/js/runtime-main.4574c1c8.js.map",
+    "static/css/2.818011ed.chunk.css": "/reactrestaurantwebsite/static/css/2.818011ed.chunk.css",
+    "static/js/2.eda9e175.chunk.js": "/reactrestaurantwebsite/static/js/2.eda9e175.chunk.js",
+    "static/js/2.eda9e175.chunk.js.map": "/reactrestaurantwebsite/static/js/2.eda9e175.chunk.js.map",
+    "index.html": "/reactrestaurantwebsite/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/reactrestaurantwebsite/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.bb571c59.chunk.css.map": "/reactrestaurantwebsite/static/css/main.bb571c59.chunk.css.map",
+    "static/js/2.eda9e175.chunk.js.LICENSE.txt": "/reactrestaurantwebsite/static/js/2.eda9e175.chunk.js.LICENSE.txt",
+    "static/media/about.8bcc344c.svg": "/reactrestaurantwebsite/static/media/about.8bcc344c.svg",
+    "static/media/banner.db1fc207.svg": "/reactrestaurantwebsite/static/media/banner.db1fc207.svg",
+    "static/media/contact.440dae7b.svg": "/reactrestaurantwebsite/static/media/contact.440dae7b.svg",
+    "static/media/numberCounter.scss": "/reactrestaurantwebsite/static/media/counter.d3f21678.jpg",
+    "static/media/productRate.scss": "/reactrestaurantwebsite/static/media/productRate.55fd68b1.svg",
+    "static/media/item1.768fc8c4.png": "/reactrestaurantwebsite/static/media/item1.768fc8c4.png",
+    "static/media/item1.a6a1bcc8.svg": "/reactrestaurantwebsite/static/media/item1.a6a1bcc8.svg",
+    "static/media/item2.af052cfd.png": "/reactrestaurantwebsite/static/media/item2.af052cfd.png",
+    "static/media/item3.140ecb6e.png": "/reactrestaurantwebsite/static/media/item3.140ecb6e.png",
+    "static/media/item4.156cd6cc.png": "/reactrestaurantwebsite/static/media/item4.156cd6cc.png",
+    "static/media/logo.c6f9062e.png": "/reactrestaurantwebsite/static/media/logo.c6f9062e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4574c1c8.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.eda9e175.chunk.js",
+    "static/css/main.bb571c59.chunk.css",
+    "static/js/main.ea4ddba8.chunk.js"
+  ]
+}
