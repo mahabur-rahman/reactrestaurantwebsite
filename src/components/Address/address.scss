@@ -1,0 +1,98 @@
+#address {
+    padding: 80px 0;
+    overflow: hidden;
+    .address-text {
+        h4 {
+            text-transform: capitalize;
+            font-size: 25px;
+            color: #000;
+            font-weight: 600;
+            line-height: 1;
+            letter-spacing: 1px;
+        }
+        h2 {
+            width: 60%;
+            letter-spacing: 3px;
+            margin: 15px 0;
+            line-height: 1.2;
+            text-transform: uppercase;
+            font-size: 46px;
+            font-weight: 700;
+            color: #000;
+        }
+        p {
+            margin: 30px 0;
+            color: rgba(0, 0, 0, 0.8);
+            font-weight: 400;
+            font-size: 1rem;
+            letter-spacing: 1px;
+        }
+        .btn.btn-primary {
+            text-transform: capitalize;
+            border: 1px solid #3F3D56;
+            margin-top: 35px;
+            padding: 15px 45px;
+            letter-spacing: 1px;
+            font-weight: 600;
+            background: #3F3D56;
+            border-radius: 30px;
+            -webkit-border-radius: 30px;
+            -moz-border-radius: 30px;
+            -ms-border-radius: 30px;
+            -o-border-radius: 30px;
+            transition: .3s;
+            -webkit-transition: .3s;
+            -moz-transition: .3s;
+            -ms-transition: .3s;
+            -o-transition: .3s;
+        }
+        .btn.btn-primary:hover {
+            letter-spacing: 2px;
+        }
+    }
+    .address-form {
+        form {
+            .form-control {
+                border: none;
+                border-bottom: 1px solid #ddd;
+                outline: 0;
+                box-shadow: none;
+                border-radius: 0;
+                -webkit-border-radius: 0;
+                -moz-border-radius: 0;
+                -ms-border-radius: 0;
+                -o-border-radius: 0;
+            }
+            .form-control:focus {
+                border-bottom: 1px solid #FF4450;
+            }
+        }
+    }
+    .address-img {
+        position: relative;
+    }
+    // animation 
+    span {
+        svg {
+            font-size: 25px;
+            top: 86%;
+            left: 63%;
+            position: absolute;
+            animation: animated-circle 2s infinite alternate-reverse both;
+            -webkit-animation: animated-circle 2s infinite alternate-reverse both;
+        }
+    }
+    @keyframes animated-circle {
+        0% {
+            -webkit-transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
+            transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
+            opacity: 0;
+        }
+        100% {
+            color: #FF4450;
+            -webkit-transform: rotateY(0deg) translateY(0) skewY(0deg);
+            transform: rotateY(0deg) translateY(0) skewY(0deg);
+            opacity: 1;
+        }
+    }
+}

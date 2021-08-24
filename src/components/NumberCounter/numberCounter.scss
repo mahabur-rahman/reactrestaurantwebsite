@@ -1,0 +1,18 @@
+#numberCounter {
+    overflow: hidden;
+    padding: 100px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url('../../images/counter.jpg') no-repeat center center / cover;
+    .number-item {
+        h2 {
+            letter-spacing: 2px;
+            font-weight: 700;
+            font-size: 48px;
+            color: #fff;
+        }
+        p {
+            margin-bottom: 0;
+            color: #ddd;
+            font-style: italic;
+        }
+    }
+}

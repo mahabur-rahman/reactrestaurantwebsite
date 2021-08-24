@@ -1,0 +1,50 @@
+#pizzaItems {
+    padding: 80px 0;
+    overflow: hidden;
+    background: rgba(251, 251, 252, 0.4);
+    .pizzaItems-heading {
+        h4 {
+            letter-spacing: 2px;
+            text-transform: capitalize;
+            color: #000;
+            font-weight: 600;
+            font-size: 30px;
+        }
+        h2 {
+            letter-spacing: 3px;
+            line-height: 1.2;
+            text-transform: uppercase;
+            font-size: 46px;
+            font-weight: 700;
+            color: #000;
+        }
+    }
+    .card {
+        margin-top: 30px;
+        img {
+            margin: 0 auto;
+            width: 150px;
+            height: 150px;
+        }
+        .card-title.h5 {
+            font-size: 25px;
+            font-weight: 600;
+            text-transform: capitalize;
+            line-height: 1;
+        }
+        p {
+            font-size: 1rem;
+            font-weight: 300;
+        }
+        .card-rate {
+            font-size: 35px !important;
+            font-weight: 500 !important;
+        }
+        transition: .3s;
+        // card hover
+        &:hover {
+            color: #fff;
+            background: #3F3E4B;
+        }
+    }
+}

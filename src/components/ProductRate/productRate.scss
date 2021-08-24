@@ -1,0 +1,84 @@
+#productRate {
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url('../../images/productRate.svg') no-repeat center center / cover;
+    background-attachment: fixed;
+    padding: 150px 0;
+    clip-path: polygon(100% 0, 100% 74%, 0 100%, 0 26%);
+    .product-content {
+        h4 {
+            margin-bottom: 0;
+            letter-spacing: 1px;
+            font-weight: 600;
+            text-transform: capitalize;
+            color: #fff;
+            font-size: 25px;
+        }
+        h2 {
+            letter-spacing: 3px;
+            margin: 15px 0;
+            line-height: 1.2;
+            text-transform: uppercase;
+            font-size: 46px;
+            font-weight: 700;
+            color: #fff;
+        }
+        .btn.btn-primary {
+            text-transform: capitalize;
+            border: 1px solid #FF4450;
+            margin-top: 35px;
+            padding: 15px 45px;
+            letter-spacing: 1px;
+            font-weight: 600;
+            background: #FF4450;
+            border-radius: 30px;
+            -webkit-border-radius: 30px;
+            -moz-border-radius: 30px;
+            -ms-border-radius: 30px;
+            -o-border-radius: 30px;
+            transition: .3s;
+            -webkit-transition: .3s;
+            -moz-transition: .3s;
+            -ms-transition: .3s;
+            -o-transition: .3s;
+        }
+        .btn.btn-primary:hover {
+            letter-spacing: 2px;
+            border: 1px solid #3F3D56;
+            background: #3F3D56;
+        }
+        // animation  
+        span {
+            svg {
+                font-size: 25px;
+                animation: phn .3s infinite alternate-reverse both;
+                -webkit-animation: phn .3s infinite alternate-reverse both;
+            }
+        }
+        @keyframes phn {
+            0% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+                -webkit-transform-origin: 50% 50%;
+                transform-origin: 50% 50%;
+            }
+            100% {
+                -webkit-transform: rotate(8deg);
+                transform: rotate(8deg);
+            }
+        }
+    }
+    // section when hover 
+    &:hover {
+        background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url('../../images/food.jpg') no-repeat center center / cover;
+        padding: 100px 0;
+        background-attachment: fixed;
+        padding: 150px 0;
+    }
+}
+
+// Responsive part 
+@media (max-width: 380px) {
+    #productRate .product-content h2 {
+        font-size: 40px;
+    }
+}
